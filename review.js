@@ -16,7 +16,7 @@ function displayReview({ _id, name, rating, review }) {
         reviewContentElement.classList.add("review-content");
 
         nameElement.innerHTML = `<strong>${name}</strong>`;
-        ratingElement.innerHTML = rating;
+        ratingElement.innerHTML = rating + '/5';
         reviewContentElement.innerHTML = review;
         dLink.innerHTML = "Delete";
         eLink.innerHTML = "Edit";

@@ -54,7 +54,6 @@ app.delete("/api/reviews/:id", async (req, res) => {
     }
 });
 
-
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/reviews.html");
 });
